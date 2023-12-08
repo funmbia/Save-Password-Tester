@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for save3-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Save - Password Tester </title>
+    <link href="save.css" type="text/css" rel="stylesheet">
+    <script src="save2.js"></script>
+</head>
+
+<body>
+    <h1> Generate A Password for Me </h1>
+    <p> <small> <i> answer the question below or click the button to get another question</i></small></p>
+    <p> <small> <i> *if your answer is really short or long, it's best to request another question</i></small></p>
+
+
+    <h5 id="question"> A sibling's middle name </h5>
+    <div class="container">
+        <input type="text" id="answer" placeholder="Type your answer...">
+        <button id="another" onclick="another()"> <small>change</small></button>
+    </div>
+
+    <button id="generate3" onclick="generate2()"> <small>get my</small> PERSONAL PASSWORD </button>
+    <h5 id="generated"> </h5>
+    <p> <small> <i id="key">  </i></small></p>
+    </br>
+    
+    <button class="back" onclick="check()"> CHECK MY PASSWORD </button>
+    <button onclick="rand()"> <small>get a</small> RANDOM PASSWORD </button>
+    <footer><small>Author: <span> funmbia </span> </small></footer>
+
+</body>

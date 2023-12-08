@@ -1,0 +1,91 @@
+/*  CSS for save
+Author: funmbia*/
+
+html, body, h1, h3, p, input, button {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+ 
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cfe8d9; 
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+  
+  #result, #generated {
+    display: none;
+  }
+  .container {
+    width: 80%;
+    max-width: 400px; 
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 20px 0;
+    font-size: 2em;
+    color: #555;
+  }
+ 
+  input[type="text"] {
+    width: calc(100% - 40px);
+    max-width: 200px; 
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(60, 193, 95);
+    color: #fff;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgb(47, 138, 71);
+  }
+
+  .back {
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #answer {
+    margin-right: 10px; 
+  }
+
+  #generate3 {
+    margin: 1%;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    color:  rgb(6, 56, 27);
+    margin-top: auto;
+  }
+  

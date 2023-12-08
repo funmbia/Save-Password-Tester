@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for save-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> Save - Password Tester </title>
+  <link href="save.css" type="text/css" rel="stylesheet">
+  <script src="save.js"></script>
+</head>
+
+<body>
+
+    <h1> Check My Password </h1>
+    <p> <small>
+      This webpage classifies your password into one of 6 tiers [0, 5] </br> If you get a low tier, don't worry! 
+      </br>Follow the suggestions and you'll be at tier 5 before you know it.
+      </br>Or have a 5-tier password generated for you!</small>
+     </p> </br>
+    <p> <small> <i> (do not input spaces)</i></small></p>
+    <input type="text" id="password" placeholder="enter your password...">
+    <button id="check" onclick="check();"> Check Security </button>
+
+    <div id="result">
+      <h3> Tier <span id="number"> </span> </h3>
+      <p > If your Password was a song, it'll be <span id="song"> </span> </p>
+      <p>  
+        <span id="explanation"> </span> 
+      </p>
+      <br>
+    </div>
+
+    <button id="generate" onclick="generate()"> Generate a Password For Me </button>
+
+    <footer><small>Author: <span> funmbia </span> </small></footer>
+  
+</body>
+
+</html>
