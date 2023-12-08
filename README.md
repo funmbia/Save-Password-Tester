@@ -5,5 +5,6 @@ This webpage classifies your password into one of 6 tiers [0, 5].
       </br>Follow the suggestions and you'll be at tier 5 before you know it.
       </br>Or have a 5-tier password generated for you!
 
-To be added: Dictionary API for random password generation  </br>
-\t \t        Database/Text File of common passwords for better security checking
+To be added:  </br>
+Dictionary API for random password generation  </br>
+Database/Text File of common passwords for better security checking
