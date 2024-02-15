@@ -12,7 +12,7 @@ function check() {
 //BUTTON FUNCTIONS
 function generate() {
     document.getElementById("generated").style.display= "block"; 
-    //TO BE REPLACED WITH DICTIONARY API
+    //CAN/SHOULD BE REPLACED WITH DICTIONARY API for better range & proetection
     const words = [
         "Orange", "Purple", "Violet", "Magenta", "Yellow",
         "Forest", "OuterSpace", "Oceans", "Mountain", "Valley",
@@ -21,17 +21,11 @@ function generate() {
         "Romance", "Horror", "Mystery", "ScienceFiction", "Comedy", "Suspense", "PeriodPiece", "Documentary", "Reality",
         "Church", "School", "Arcade", "Theatre", "Campus", "Mosque", "Shrine"
     ];
-    
-    // async function getRandomWord() {
-    //     const response = await fetch('https://api.wordnik.com/v4/words.json/randomWord?api_key=API_KEY');
-    //     const data = await response.json();
-    //     return data.word;
-    //   }
       
     var word = addChar( words[ Math.floor(Math.random() * words.length) ]); //addChar to a random word
     var randNum = Math.floor(Math.random() * 89) + 10;
 
-    randNum%2==0 ? generated = word + randNum : generated = randNum + word;
+    generated = randNum%2==0 ? (word + randNum) : (randNum + word);
 
     document.getElementById("generated").innerHTML = generated;
     document.getElementById("key").innerHTML = key(generated);
