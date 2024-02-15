@@ -1,4 +1,4 @@
-## [Save-Password-Tester](https://funmbia.github.io/Save-Password-Tester/index.html)
+## [Save: Password-Tester](https://funmbia.github.io/Save-Password-Tester/index.html)
 
 6️⃣ A password classification system, categorizing user passwords into one of six tiers, ranging from 0 to 5.     
 ⚖️ This classification process is informed by attributes such as _commonality_, _ordering_, _uniqueness_, and _length_.     
