@@ -2,7 +2,7 @@
 // Author: funmbia 
 
 function check() {
-    window.location.href = "save.html"
+    window.location.href = "index.html"
 } function rand() {
     window.location.href = "save2.html"
 } function personal() {
