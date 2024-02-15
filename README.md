@@ -6,5 +6,5 @@ Users are presented with the option to enhance their password security by follow
 Additionally, users have the choice to generate a new password, either through random generation or by responding to personalized questions.    
     
 
-### Possible additional features users can implement:  </br>
+### Possible additional features developers can implement:  </br>
 Dictionary API for random password generation (e.g. get a personal API key from [Wordnik](https://developer.wordnik.com/)) </br>
