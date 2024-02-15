@@ -93,7 +93,7 @@ function check3(result) {
 }
 
 function isCommon(password) {
-    //TO BE REPLACED WITH API/TXT FILE
+    //CAN BE REPLACED WITH TXT FILE
     const common = [
         "123456","123456789","12345","qwerty","password","12345678",
         "111111","123123","1234567890","1234567","qwerty123","000000",
@@ -115,53 +115,3 @@ function isCommon(password) {
     }
     return "f";
 }
-
-
-// function isCommon(password) {
-//     const userInputPassword = "" + password; // Replace this with the actual user input
-
-//     // Read the file asynchronously
-//     fetch('common_passwords.txt')
-//         .then(response => {
-//             if (!response.ok) {
-//                 throw new Error('Network response was not ok');
-//             }
-//             return response.text();
-//         })
-//         .then(data => {
-//             const commonPasswords = data.split('\n');
-
-//             // Now you have the array of passwords in 'commonPasswords'
-//             const result = checkPassword(userInputPassword, commonPasswords);
-//             return result; 
-//         })
-//         .catch(error => {
-//             console.error('There was a problem fetching the file:', error);
-//         });
-// }
-
-// // function checkPassword(userInputPassword, commonPasswords) {
-// //     const foundPassword = commonPasswords.find(password => password.trim() === userInputPassword.trim());
-// //     if (foundPassword) {
-// //         return `t - ${foundPassword}`; // Password found in the common passwords list
-// //     } else {
-// //         return 'f'; // Password not found in the common passwords list
-// //     }
-// // }
-
-// function checkPassword(password, commonPasswords) {
-//     const userInputPassword = "" + password; // Replace this with the actual user input
-
-//     const foundPassword = commonPasswords.includes(userInputPassword);
-
-//     if (foundPassword) {
-//         console.log(`The password "${userInputPassword}" is common.`);
-//         return true;
-//     } else {
-//         console.log(`The password "${userInputPassword}" is not common.`);
-//         return false;
-//     }
-// }
-
-
-
