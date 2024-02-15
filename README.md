@@ -7,4 +7,4 @@ Additionally, users have the choice to generate a new password, either through r
     
 
 ### Possible additional features developers can implement:  </br>
-Dictionary API for random password generation (e.g. get a personal API key from [Wordnik](https://developer.wordnik.com/)) </br>
+Dictionary API for the random password generation feature (e.g. get a personal API key from [Wordnik](https://developer.wordnik.com/)) </br>
