@@ -78,6 +78,10 @@ html, body, h1, h3, p, input, button {
     margin-right: 10px; 
   }
 
+#song {
+    font-size:larger;
+}
+
   #generate3 {
     margin: 1%;
   }
