@@ -6,5 +6,5 @@
 🎲 Additionally, users have the choice to generate a new password, either through random generation or by responding to personalized questions.    
     
 
-### Additional features developers can implement:  </br>
+### Additional features to implement:  </br>
 📕 Dictionary API for the random password generation feature (e.g. get a personal API key from [Wordnik](https://developer.wordnik.com/)) </br>
